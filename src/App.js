@@ -1,12 +1,14 @@
+import React from 'react';
+import './styles/index.css';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    <div className="h-screen bg-gradient-radial from-greennnn to-pinkkk">
+        <NavBar /> 
+        <Hero />
     </div>
   );
 }
